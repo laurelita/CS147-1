@@ -15,7 +15,9 @@
 	</head>
 
 	<body>
-	
+	<? php 
+		echo "test";
+	?>
 		<div class="banner"></div>
 		
 		<div class="orderarea">

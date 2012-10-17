@@ -1,8 +1,10 @@
+//Go to PHP.net for lots of examples and help
+
 <h2>Most basic</h2>
 
 <?php
 
-echo "Hello World";
+echo "Hello World!";
 
 ?>
 
@@ -83,6 +85,8 @@ function HelloWorld4() {
 	
 	// This is now an array
 	$pieces = explode(" ", $string);
+	print_r($pieces);
+	echo $pieces;
 	echo $pieces[0]." ".$pieces[1];
 }
 
@@ -96,7 +100,7 @@ HelloWorld4();
 <?php
 
 function HelloWorld6() {
-	$array = array('Hello', 'World');
+	$array = array('Hello', 'World', '!');
 	$add_space = implode(" ", $array);
 	echo $add_space;
 }
